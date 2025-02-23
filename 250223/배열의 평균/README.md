@@ -5,10 +5,11 @@
 |[2d](https://www.codetree.ai/training-field/search/?tags=2d)|[일반연습 / 문제은행](https://www.codetree.ai/training-field/home)|
 
 
-
+```c++
 #include<iomanip>
-cout<<fixed<<setprecision(1);
 
+cout<<fixed<<setprecision(1);
+```
 
 
 

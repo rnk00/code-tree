@@ -6,7 +6,8 @@
 
 
 
-
+#include<iomanip>
+cout<<fixed<<setprecision(1);
 
 
 

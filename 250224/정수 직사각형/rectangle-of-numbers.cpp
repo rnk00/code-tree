@@ -9,11 +9,10 @@ int main() {
 
     for(int i{0};i<n;i++){
         for(int j{0};j<m;j++){
-            cout<<i*3+j+1<<' ';
+            cout<<i*m+j+1<<' ';
         }
         cout<<'\n';
     }
-
 
     return 0;
 }

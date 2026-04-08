@@ -14,6 +14,6 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine().trim());
 
-        System.out.println(dp[N]);
+        System.out.println(dp[N] % 10007);
     }
 }

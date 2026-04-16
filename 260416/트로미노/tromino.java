@@ -22,12 +22,12 @@ public class Main {
 
         int max = 0;
         // 시작점 찾기
-        for(int i=0; i<N-1; i++){
-            for(int j=0; j<M-1; j++){
+        for(int i=0; i<N; i++){
+            for(int j=0; j<M; j++){
                 // 모양대로 더하기
                 for(int d=0; d<6; d++){
-                	int sum = 0;
                 	boolean can = true;
+                	int sum = 0;
                     for(int k=0; k<3; k++){
                         int nx = i+dx[d][k];
                         int ny = j+dy[d][k];

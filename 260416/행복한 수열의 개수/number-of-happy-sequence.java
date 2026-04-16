@@ -27,7 +27,7 @@ public class Main {
         if(M==1) happyCnt = 2*N;
         else {
             for(int i=0; i<N; i++){
-                int cnt = 0;
+                int cnt = 1;
                 int prev = arr[i][0];
                 for(int j=1; j<N; j++){
                     if(arr[i][j]==prev){
